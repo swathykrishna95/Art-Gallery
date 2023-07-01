@@ -1,0 +1,37 @@
+body{
+   font-size: 20px;
+    color: brown;
+    text-align: center;
+    background-image: url(https://cdn.hovia.com/app/uploads/white-gold-marble-textures-plain.jpg);
+    background-attachment:fixed;
+
+}
+div{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items:center;
+}
+
+img{
+    max-width: 270px;
+    border: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+#footer{
+    margin-top:60px;
+    font-size: 12px; 
+    text-align: right;
+}
+
+#footer > p{
+    margin: 5px 5px;
+    padding: 0;
+}
